@@ -8,4 +8,6 @@ if(!$conn){
     die("Connection Failed: " . mysqli_connect_error());
 }
 
+echo "Hey whats up!<br>";
+
 echo mysqli_get_server_info($conn);
