@@ -1,9 +1,10 @@
-
+<!DOCTYPE html>
 <?php
 require_once 'defines.php';
 ?>
 
-<!DOCTYPE html>
+<?php echo "hi!"?>
+
 <html>
     <head>
     	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
