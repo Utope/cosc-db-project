@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<?php ?>
+<?php include_once 'defines.php'; ?>
 
 <html>
     <head>
