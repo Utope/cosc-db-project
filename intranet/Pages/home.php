@@ -1,6 +1,6 @@
 <?php
 
-require_once '../defines.php';
+require_once 'intranet/loginCheck.php';
 
 $conn = mysqli_connect(DB_URL,DB_USERNAME,DB_PASSWORD);
 
