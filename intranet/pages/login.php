@@ -11,6 +11,7 @@
     </head>
     
     <body>
+    
     	<div class="w3-display-container" style="height:100vh;" >
     	
     		<div class="w3-card-4 w3-display-middle">
@@ -42,10 +43,11 @@
     <script type="text/javascript">
 
 	$(document).ready(function(){
-
+		var test;
+		window
 		$("#submit").click(function(){
 
-			$.post( <?php echo DB_PHP; ?>,
+			$.post( <?php "http://" . $_SERVER["HTTP_HOST"] . "/intranet/databaseOperations.php" ?>,
 				{
 					username: $("#username").val();
 					password: $("#password").val();
