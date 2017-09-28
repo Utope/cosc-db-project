@@ -1,0 +1,15 @@
+{
+    "name": "utope/cosc-db-project",
+    "description": "Final project for Database class",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Robert Smith",
+            "email": "bobbyx140x@gmail.com"
+        },
+	{
+	    "name": "Marcin"
+	}
+    ],
+    "require": {}
+}
