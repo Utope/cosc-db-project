@@ -3,7 +3,6 @@ use function cosc\verifyLoggedIn;
 ?>
 
 <?php 
-include_once 'helpers.php';
 session_start();
 verifyLoggedIn();
 
