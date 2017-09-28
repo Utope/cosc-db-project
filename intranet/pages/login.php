@@ -56,7 +56,6 @@
 					password: $("#password").val()
 				},
 				function(data, status){ // callback function
-					alert(status);
 					alert(data);
 				}
 			);
