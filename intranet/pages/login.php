@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<?php include_once 'defines.php'; ?>
+<?php include_once 'intranet/pages/ALWAYS_INCLUDE.php'; ?>
 
 <html>
     <head>
@@ -46,13 +46,18 @@
 
 		$("#submit").click(function(){
 
-			$.post( <?php echo "\"" . "http://" . $_SERVER["HTTP_HOST"] . "/intranet/databaseOperations.php" . "\""; ?>,
+			$.post( <?php echo DB_PHP; ?>,
 				{
 					username: $("#username").val(),
-					password: $("#password").val()
+					password: $("#password").val(),
+					method: "login"
 				},
 				function(data, status){ // callback function
-					alert(data);
+					if(status == "success"){
+						//Redirect
+					}else{
+						alert("Username or Password inccorect");
+					}
 				}
 			);
 		});
