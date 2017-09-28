@@ -55,7 +55,7 @@
 					username: $("#username").val(),
 					password: $("#password").val()
 				},
-				funtion(data, status){ // callback function
+				function(data, status){ // callback function
 					alert(status);
 					alert(data);
 				}
