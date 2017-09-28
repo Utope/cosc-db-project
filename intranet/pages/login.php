@@ -48,8 +48,9 @@
 		$("#submit").click(function(){
 
 			var doc_username = $("#username").val();
+			var doc_password = $("#password").val();
 			
-			$.post( <?php echo "http://" . $_SERVER["HTTP_HOST"] . "/intranet/databaseOperations.php"; ?>,
+			$.post( <?php echo "\"" . "http://" . $_SERVER["HTTP_HOST"] . "/intranet/databaseOperations.php" . "\""; ?>,
 				{
 					username: $("#username").val(),
 					password: $("#password").val()
