@@ -14,7 +14,7 @@ namespace cosc{
     }
     
     function getPage_Login_Url(){
-        return "http://" . $_SERVER["HTTP_HOST"] . "/intranet/pages/login.php";
+        return ("http://" . $_SERVER["HTTP_HOST"] . "/intranet/pages/login.php");
     }
     
     function getPage_Home_Url(){
