@@ -9,15 +9,23 @@
     </head>
     
     <body>
-    	<form class="w3-container">
-    		<label>Login</label>
-    		
-    		<label>username</label>
-    		<input class="w3-input" type="text">
-    		
-    		<label>password</label>
-    		<input class="w3-input" type="text">
-    	</form>	
-    
+    	<div class="w3-container">
+    	
+    		<div class="w3-card-4">
+    			<div class="w3-container w3-grey">
+    				<h2>Login</h2>
+    			</div>
+    	
+    	
+        	   <form class="w3-container">
+            	    <label>username</label>
+            		<input class="w3-input" type="text">
+            		
+            		<label>password</label>
+            		<input class="w3-input" type="text">
+        	   </form>
+
+    		</div>
+    	</div>	
     </body>
 </html>
