@@ -1,7 +1,8 @@
+
+
+<?php include_once 'helpers.php'?>
+
 <!DOCTYPE html>
-
-<?php include_once 'intranet/pages/ALWAYS_INCLUDE.php'; ?>
-
 <html>
     <head>
     	<title>login</title>
@@ -46,7 +47,7 @@
 
 		$("#submit").click(function(){
 
-			$.post( <?php echo DB_PHP; ?>,
+			$.post( <?php /* url needs to go here*/; ?>,
 				{
 					username: $("#username").val(),
 					password: $("#password").val(),
@@ -54,7 +55,7 @@
 				},
 				function(data, status){ // callback function
 					if(status == "success"){
-						//Redirect
+					
 					}else{
 						alert("Username or Password inccorect");
 					}

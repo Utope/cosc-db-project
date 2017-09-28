@@ -1,3 +1,3 @@
 <?php
-require_once 'defines.php';
-header("Location: " . PAGE_LOGIN);
+require_once 'helpers.php';
+header("Location: " . getPage_Login_Url());
