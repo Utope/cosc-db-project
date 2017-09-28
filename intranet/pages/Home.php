@@ -1,8 +1,7 @@
 <?php
+include_once 'helpers.php';
 use function cosc\verifyLoggedIn;
-?>
 
-<?php 
 session_start();
 verifyLoggedIn();
 
