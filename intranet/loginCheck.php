@@ -1,5 +1,5 @@
 <?php
-require_once 'intranet/defines.php';
+require_once 'defines.php';
 
 session_start();
 
