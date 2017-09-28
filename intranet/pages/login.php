@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<?php echo "hi!"?>
 <?php
 require_once 'defines.php';
 ?>
 
-<?php echo "hi!"?>
+
 
 <html>
     <head>
