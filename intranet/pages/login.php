@@ -47,7 +47,7 @@
 		window
 		$("#submit").click(function(){
 
-			$.post( <?php "http://" . $_SERVER["HTTP_HOST"] . "/intranet/databaseOperations.php" ?>,
+			$.post( <?php echo "http://" . $_SERVER["HTTP_HOST"] . "/intranet/databaseOperations.php"; ?>,
 				{
 					username: $("#username").val();
 					password: $("#password").val();
