@@ -47,10 +47,12 @@
 		window
 		$("#submit").click(function(){
 
+			var doc_username = $("#username").val();
+			
 			$.post( <?php echo "http://" . $_SERVER["HTTP_HOST"] . "/intranet/databaseOperations.php"; ?>,
 				{
-					username: $("#username").val();
-					password: $("#password").val();
+					username: $("#username").val(),
+					password: $("#password").val()
 				},
 				funtion(data, status){ // callback function
 					alert(status);
